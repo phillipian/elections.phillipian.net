@@ -61,6 +61,15 @@ body {
   font-size: 18px;
 }
 
+.col-md-6 {
+  opacity: 0.5;
+  transition: opacity 0.5s ease;
+}
+
+.col-md-6:hover {
+  opacity: 1;
+}
+
 .wrapper .row .col-md-6 p.question:first-child {
   padding-top: 0;
 }
@@ -85,4 +94,8 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.still-in {
+  opacity: 1;
 }
