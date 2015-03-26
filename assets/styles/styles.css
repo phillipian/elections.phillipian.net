@@ -61,12 +61,12 @@ body {
   font-size: 18px;
 }
 
-.col-md-6 {
+.col-md-6.out {
   opacity: 0.5;
   transition: opacity 0.5s ease;
 }
 
-.col-md-6:hover {
+.col-md-6.out:hover {
   opacity: 1;
 }
 
